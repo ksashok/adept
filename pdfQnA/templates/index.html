@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>FAQ Bot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h2>Enter your QUESTION below</h2>
+    <textarea class="question text"></textarea>
+    <button class="submit"><b>FIND ANSWER</b></button>
+    <h2>Here are the matching results</h2>
+    <div class="answer text"></div>
+  </body>
+  <script src="{{ url_for('static', filename="js/main.js")}}"></script>
+</html>
