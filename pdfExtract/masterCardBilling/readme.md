@@ -39,4 +39,4 @@ Modules used    : pyMuPdf, pandas, numpy , re
     ```
 
 # Limitations
-- The project would not work the start of the tables are not consistent.
+- The project would not work if the start of the tables are not consistent.

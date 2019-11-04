@@ -1,5 +1,5 @@
 #"C:/Users/Ashok KS/Anaconda3/python.exe" "c:/Users/Ashok KS/Anaconda3/Scripts/pdf2txt.py"  '.\Downloads\Visa Billing Line Listing (October 2014).pdf' -o test2.html -t html
-#Python pdf2txt.py file.pdf -p output.html -t html
+#Python pdf2txt.py file.pdf -o output.html -t html
 
 left_size = [26,98,260]
 ignore = ['Billing Line Listing','Line No.','Invoice Description','Long Description']
@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import re
 
-with open("Downloads/test2.html", "r", encoding="utf8") as f:
+with open("test2.html", "r", encoding="utf8") as f:
     
     contents = f.read()
 
